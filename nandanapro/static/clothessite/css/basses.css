@@ -1,0 +1,194 @@
+
+#kryesore{
+  overflow-y: auto;
+  overflow-x: auto;
+}
+#image3{
+width: 200px;
+height: 200px;
+}
+
+.first_p{
+  background-color: rgb(13, 12, 12);
+border: 2px solid black;
+color: rgb(212,175,55);
+}
+#about{
+  font-size: 18px;
+}
+/* body{
+  background-color: rgb(13, 12, 12);
+} */
+.topnav {
+  z-index: 500;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgb(0,0,0);
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: rgba(0,0,0.5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(0,0,0.5);
+  color: white;
+
+}
+#stnav{
+font-size: 60px;
+color: black;
+
+
+}
+#con{
+  font-size: 70px;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgba(0,0,0.5);
+  color: white;
+
+}
+.contact{
+  text-align: center;
+}
+.select{
+  margin: 10px 20px 30px 40px;
+
+}
+#image1{
+  height: 300px;
+  width: 300px;
+}
+.main{
+  /* color: black; */
+  margin: 60px 165px 30px 50px;
+}
+
+
+
+.secondndbar{
+  padding-top: 18px;
+background-color: rgb(255,255,255);
+z-index: 500;
+top: 45px;
+position: fixed;
+width: 100%;
+  clear:both;
+  overflow:auto;
+}
+
+#navs{
+  margin: 15px;
+  float:right;}
+
+.logo img{float:left;}
+
+#uls #lis{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family: raleway;
+}
+
+
+#uls #lis a{
+  color: rgba(0,0,0.5);
+
+}
+#uls #lis a:hover{
+  background-color: rgba(255,255,255);
+  color: black;
+
+}
+#uls #lis a.active {
+  background-color: rgba(0,0,0.5);
+  color: white;
+
+}
+#anch:hover{
+  background-color: rgba(255,255,255);
+  color: black;
+}
+#anch.active{
+  background-color: rgba(0,0,0.5);
+  color: white;
+
+}
+#anch{
+  color: rgb(0,0,0);
+}
+#heads{
+  font-size: 35px;
+}
+.locationp{
+  font-size: 20px;
+}
+.locationp img{
+height: 400px;
+margin-left: 430px;
+}
+.shippingnp #ship{
+  text-align: center;
+  font-size: 35px;
+}
+.shippingnp #two{
+  text-align: center;
+  font-size: 20px;
+}
+.ullist{
+margin-left: 150px;
+margin-right: 150px;
+  font-size: 18px;
+}
+#cost{
+  text-align: center;
+  font-size: 27px;
+}
+.shippingnp img{
+height: 400px;
+margin-left: 80px;
+/* margin-left: 70px; */
+}
+.privacynp{
+  text-align: center;
+}
+.privacynp #headp{
+  font-size: 35px;
+}
+.privacynp #normp{
+  margin-left: 150px;
+  margin-right: 150px;
+    font-size: 17px;
+
+}
+.privacynp img{
+  height: 400px;
+}
+
+.returnnp #headp{
+text-align: center;
+  font-size: 35px;
+}
+.returnnp #one{
+  text-align: center;
+  font-size: 22px;
+}
+.returnnp #normp{
+  text-align: center;
+  /* margin-left: 150px;
+  margin-right: 150px; */
+    font-size: 18px;
+
+}
+.ulslist{
+margin-left: 150px;
+margin-right: 150px;
+font-size: 18px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends "clothessite/base.html"%}
+{% load static %}
+{%block body_block%}
+
+<div class="select">
+<div class="row">
+<div class="col-lg-6">
+<div class="row">
+  <a href="{% url 'clothessite:indiandress'%}"><div class="col-lg-6 col-md-6"><img id="image1" src="{%static "clothessite/images/indian.jpg"%}"></img></a></div>
+<a href="{% url 'clothessite:indowesterndress'%}"><div class="col-lg-6 col-md-6"><img id="image1" src="{%static "clothessite/images/indowestern.jpg"%}"></img></a></div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="row">
+<a href="{% url 'clothessite:sareedress'%}"><div class="col-lg-6 col-md-6"><img id="image1" src="{%static "clothessite/images/saree.jpg"%}"></img></a></div>
+<a href="{% url 'clothessite:westerndress'%}"><div class="col-lg-6 col-md-6"><img id="image1" src="{%static "clothessite/images/westerndress.jpg"%}"></img></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

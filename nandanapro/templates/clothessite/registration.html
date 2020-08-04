@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% extends 'clothessite/base.html'%}
+{%load static%}
+{% block body_block %}
+<br><br><br><br>
+<h2 align="center"><u> Create Account </u></h2></br>
+<div class="jumb">
+<div class="container">
+<div class="jumbotron">
+  {% if registered %}
+  <h1>thank you for regestreing with us</h1>
+  {%else%}
+   <form method="post">
+     <div class="form-group">
+    {% csrf_token %}
+       {{user_form.as_p}}
+    {{userinfo_form.as_p}}
+    <div>
+    <button class="btn btn-primary" type="submit" name="button">Submit</button>
+  </div>
+</div>
+  </form>
+  {%endif%}
+  <p align="center">If you are already login ! <a href="{%url 'clothessite:user_login'%}">Log in</a></p>
+</div>
+</div>
+</div>
+{% endblock%}
